@@ -1,0 +1,17 @@
+[ 2025-11-09 11:45:05,463 ] 25 root - INFO - Data Ingestion is initialized
+[ 2025-11-09 11:45:05,494 ] 38 root - INFO - Train test split has started
+[ 2025-11-09 11:45:05,507 ] 43 root - INFO - Train data exported successfully
+[ 2025-11-09 11:45:05,512 ] 48 root - INFO - Test data exported successfully
+[ 2025-11-09 11:45:05,512 ] 49 root - INFO - Data is successfully exported
+[ 2025-11-09 11:45:05,512 ] 61 root - INFO - Data Transformation has started
+[ 2025-11-09 11:45:05,524 ] 67 root - INFO -    CustomerID   Age TypeofContact  CityTier  DurationOfPitch  ... PitchSatisfactionScore OwnCar     Designation  MonthlyIncome ProdTaken
+0      200736  48.0  Self Enquiry         1             10.0  ...                      5      1  Senior Manager        25999.0         0
+1      201615  30.0  Self Enquiry         1             11.0  ...                      5      0       Executive        18204.0         0
+2      200336  29.0  Self Enquiry         1             14.0  ...                      3      1       Executive        17119.0         1
+3      204526  29.0  Self Enquiry         3              9.0  ...                      3      1         Manager        23457.0         0
+4      202665  34.0  Self Enquiry         1             11.0  ...                      4      0       Executive        21300.0         0
+
+[5 rows x 19 columns]
+[ 2025-11-09 11:45:05,525 ] 43 root - INFO - numerical and categorical pipeline has been defined
+[ 2025-11-09 11:45:05,525 ] 51 root - INFO - Pre-processing object is created successfully
+[ 2025-11-09 11:45:05,525 ] 106 root - INFO - Exception has occured while data transformation

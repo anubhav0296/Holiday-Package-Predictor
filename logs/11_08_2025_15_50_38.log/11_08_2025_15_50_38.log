@@ -1,0 +1,5 @@
+[ 2025-11-08 15:50:39,083 ] 24 root - INFO - Data Ingestion is initialized
+[ 2025-11-08 15:50:39,114 ] 37 root - INFO - Train test split has started
+[ 2025-11-08 15:50:39,127 ] 42 root - INFO - Train data exported successfully
+[ 2025-11-08 15:50:39,133 ] 47 root - INFO - Test data exported successfully
+[ 2025-11-08 15:50:39,133 ] 48 root - INFO - Data is successfully exported

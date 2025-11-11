@@ -1,0 +1,7 @@
+[ 2025-11-09 11:33:13,978 ] 25 root - INFO - Data Ingestion is initialized
+[ 2025-11-09 11:33:14,008 ] 38 root - INFO - Train test split has started
+[ 2025-11-09 11:33:14,021 ] 43 root - INFO - Train data exported successfully
+[ 2025-11-09 11:33:14,026 ] 48 root - INFO - Test data exported successfully
+[ 2025-11-09 11:33:14,026 ] 49 root - INFO - Data is successfully exported
+[ 2025-11-09 11:33:14,026 ] 61 root - INFO - Data Transformation has started
+[ 2025-11-09 11:33:14,032 ] 104 root - INFO - Exception has occured while data transformation

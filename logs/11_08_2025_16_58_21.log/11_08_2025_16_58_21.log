@@ -1,0 +1,14 @@
+[ 2025-11-08 16:58:21,061 ] 25 root - INFO - Data Ingestion is initialized
+[ 2025-11-08 16:58:21,091 ] 38 root - INFO - Train test split has started
+[ 2025-11-08 16:58:21,103 ] 43 root - INFO - Train data exported successfully
+[ 2025-11-08 16:58:21,110 ] 48 root - INFO - Test data exported successfully
+[ 2025-11-08 16:58:21,110 ] 49 root - INFO - Data is successfully exported
+[ 2025-11-08 16:58:21,110 ] 27 root - INFO - Data Transformation has started
+[ 2025-11-08 16:58:21,115 ] 31 root - INFO - train and test data is loaded
+[ 2025-11-08 16:58:21,115 ] 37 root - INFO - numerical and categorical cols has been defined
+[ 2025-11-08 16:58:21,115 ] 55 root - INFO - numerical and categorical pipeline has been defined
+[ 2025-11-08 16:58:21,115 ] 63 root - INFO - Data Transformation is complete
+[ 2025-11-08 16:58:21,115 ] 13 root - INFO - Saving object has started. File path is artifacts/transformed_train_data.pxl
+[ 2025-11-08 16:58:21,115 ] 16 root - INFO - Making folder where the file will be saved
+[ 2025-11-08 16:58:21,135 ] 22 root - INFO - Saving object is successfully complete
+[ 2025-11-08 16:58:21,135 ] 70 root - INFO - Saving done!!! Data Transformation done!!!

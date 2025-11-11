@@ -1,0 +1,9 @@
+[ 2025-11-09 11:39:11,660 ] 25 root - INFO - Data Ingestion is initialized
+[ 2025-11-09 11:39:11,689 ] 38 root - INFO - Train test split has started
+[ 2025-11-09 11:39:11,702 ] 43 root - INFO - Train data exported successfully
+[ 2025-11-09 11:39:11,707 ] 48 root - INFO - Test data exported successfully
+[ 2025-11-09 11:39:11,707 ] 49 root - INFO - Data is successfully exported
+[ 2025-11-09 11:39:11,707 ] 61 root - INFO - Data Transformation has started
+[ 2025-11-09 11:39:11,713 ] 43 root - INFO - numerical and categorical pipeline has been defined
+[ 2025-11-09 11:39:11,713 ] 51 root - INFO - Pre-processing object is created successfully
+[ 2025-11-09 11:39:11,713 ] 104 root - INFO - Exception has occured while data transformation

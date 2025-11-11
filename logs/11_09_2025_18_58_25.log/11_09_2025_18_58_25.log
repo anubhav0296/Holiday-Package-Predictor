@@ -1,0 +1,62 @@
+[ 2025-11-09 18:58:29,668 ] 26 root - INFO - Data Ingestion is initialized
+[ 2025-11-09 18:58:29,708 ] 39 root - INFO - Train test split has started
+[ 2025-11-09 18:58:29,723 ] 44 root - INFO - Train data exported successfully
+[ 2025-11-09 18:58:29,729 ] 49 root - INFO - Test data exported successfully
+[ 2025-11-09 18:58:29,729 ] 50 root - INFO - Data is successfully exported
+[ 2025-11-09 18:58:29,729 ] 61 root - INFO - Data Transformation has started
+[ 2025-11-09 18:58:29,741 ] 67 root - INFO -    CustomerID   Age TypeofContact  CityTier  DurationOfPitch      Occupation  ... Passport  PitchSatisfactionScore  OwnCar     Designation  MonthlyIncome ProdTaken
+0      200736  48.0  Self Enquiry         1             10.0        Salaried  ...        0                       5       1  Senior Manager        25999.0         0
+1      201615  30.0  Self Enquiry         1             11.0  Large Business  ...        0                       5       0       Executive        18204.0         0
+2      200336  29.0  Self Enquiry         1             14.0        Salaried  ...        1                       3       1       Executive        17119.0         1
+3      204526  29.0  Self Enquiry         3              9.0  Small Business  ...        1                       3       1         Manager        23457.0         0
+4      202665  34.0  Self Enquiry         1             11.0  Small Business  ...        0                       4       0       Executive        21300.0         0
+
+[5 rows x 19 columns]
+[ 2025-11-09 18:58:29,741 ] 43 root - INFO - numerical and categorical pipeline has been defined
+[ 2025-11-09 18:58:29,741 ] 51 root - INFO - Pre-processing object is created successfully
+[ 2025-11-09 18:58:29,755 ] 85 root - INFO - X_train and X_test data is transformed now
+[ 2025-11-09 18:58:29,755 ] 16 root - INFO - Saving object has started. File path is artifacts/transformed_train_data.pkl
+[ 2025-11-09 18:58:29,755 ] 19 root - INFO - Making folder where the file will be saved
+[ 2025-11-09 18:58:29,758 ] 25 root - INFO - Saving object is successfully complete
+[ 2025-11-09 18:58:29,758 ] 96 root - INFO - Saving of file_path - artifacts/transformed_train_data.pkl and processor object done!!
+[ 2025-11-09 18:58:29,758 ] 97 root - INFO - [[142.99800712   5.29250022   1.09244215   1.22051783   4.1707267
+    4.00140086   3.74289836   0.54439507   0.           3.63973492
+    2.06113211   4.8894578    0.           2.19163877   0.
+    0.           2.00033922   0.           0.           0.
+    2.04412902   0.           0.           0.           2.7787728
+    0.           0.           0.           0.           2.86438168
+    0.           0.           0.           2.7787728    0.
+    0.        ]
+ [143.62417905   3.30781264   1.09244215   1.34256961   2.78048447
+    3.00105065   6.23816393   3.2663704    0.           3.63973492
+    0.           3.42350436   0.           2.19163877   0.
+    3.62440437   0.           0.           0.           2.07527116
+    0.           2.06020797   0.           0.           0.
+    0.           0.           2.0011707    0.           0.
+    0.           2.06020797   0.           0.           0.
+    0.        ]
+ [142.71305971   3.19755222   1.09244215   1.70872496   4.1707267
+    5.00175108   6.23816393   1.08879013   2.21320638   2.18384095
+    2.06113211   3.21945568   0.           2.19163877   0.
+    0.           2.00033922   0.           0.           0.
+    2.04412902   2.06020797   0.           0.           0.
+    0.           2.53570385   0.           0.           0.
+    0.           2.06020797   0.           0.           0.
+    1.        ]
+ [145.69788381   3.19755222   3.27732646   1.09846604   4.1707267
+    4.00140086   4.99053115   1.6331852    2.21320638   2.18384095
+    2.06113211   4.41140089   0.           2.19163877   0.
+    0.           0.           2.02251201   0.           2.07527116
+    0.           0.           2.09153924   0.           0.
+    0.           0.           2.0011707    0.           0.
+    0.           0.           2.09153924   0.           0.
+    0.        ]
+ [144.37216599   3.74885432   1.09244215   1.34256961   4.1707267
+    5.00175108   4.99053115   4.35516054   0.           2.91178794
+    0.           4.00574835   0.           2.19163877   0.
+    0.           0.           2.02251201   0.           2.07527116
+    0.           2.06020797   0.           0.           0.
+    0.           2.53570385   0.           0.           0.
+    0.           2.06020797   0.           0.           0.
+    0.        ]]
+[ 2025-11-09 18:58:29,758 ] 99 root - INFO - Saving done!!! Data Transformation done!!!

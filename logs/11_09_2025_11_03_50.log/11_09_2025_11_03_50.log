@@ -1,0 +1,35 @@
+[ 2025-11-09 11:03:50,635 ] 25 root - INFO - Data Ingestion is initialized
+[ 2025-11-09 11:03:50,664 ] 38 root - INFO - Train test split has started
+[ 2025-11-09 11:03:50,676 ] 43 root - INFO - Train data exported successfully
+[ 2025-11-09 11:03:50,681 ] 48 root - INFO - Test data exported successfully
+[ 2025-11-09 11:03:50,681 ] 49 root - INFO - Data is successfully exported
+[ 2025-11-09 11:03:50,682 ] 30 root - INFO - Data Transformation has started
+[ 2025-11-09 11:03:50,686 ] 34 root - INFO - train and test data is loaded
+[ 2025-11-09 11:03:50,686 ] 42 root - INFO - numerical and categorical cols has been defined
+[ 2025-11-09 11:03:50,687 ] 60 root - INFO - numerical and categorical pipeline has been defined
+[ 2025-11-09 11:03:50,687 ] 68 root - INFO - Data Transformation is complete
+[ 2025-11-09 11:03:50,687 ] 13 root - INFO - Saving object has started. File path is artifacts/transformed_train_data.pxl
+[ 2025-11-09 11:03:50,687 ] 16 root - INFO - Making folder where the file will be saved
+[ 2025-11-09 11:03:50,687 ] 22 root - INFO - Saving object is successfully complete
+[ 2025-11-09 11:03:50,687 ] 75 root - INFO - file_path - artifacts/transformed_train_data.pxl
+[ 2025-11-09 11:03:50,692 ] 76 root - INFO - ColumnTransformer(transformers=[('num_transformation',
+                                 Pipeline(steps=[('Imputation',
+                                                  SimpleImputer(strategy='median')),
+                                                 ('Standardization',
+                                                  StandardScaler(with_mean=False))]),
+                                 ['CustomerID', 'Age', 'CityTier',
+                                  'DurationOfPitch', 'NumberOfPersonVisiting',
+                                  'NumberOfFollowups', 'PreferredPropertyStar',
+                                  'NumberOfTrips', 'Passport',
+                                  'PitchSatisfactionScore', 'OwnCar',
+                                  'MonthlyIncome', 'ProdTaken']),
+                                ('cat_transformation',
+                                 Pipeline(steps=[('Imputation',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('Encoding', OneHotEncoder()),
+                                                 ('Standardization',
+                                                  StandardScaler(with_mean=False))]),
+                                 ['TypeofContact', 'Occupation', 'Gender',
+                                  'ProductPitched', 'MaritalStatus',
+                                  'Designation'])])
+[ 2025-11-09 11:03:50,692 ] 78 root - INFO - Saving done!!! Data Transformation done!!!
